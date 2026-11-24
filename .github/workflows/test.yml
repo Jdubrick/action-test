@@ -1,0 +1,12 @@
+
+on:
+    workflow_dispatch:
+
+jobs:
+    test:
+        name: test-job
+        runs-on: ubuntu-latest
+        steps:
+            - name: test-step
+              run: |
+                curl https://docs.redhat.com/en/documentation/red_hat_developer_hub/1.10/html-single/red_hat_developer_hub_release_notes/index 
